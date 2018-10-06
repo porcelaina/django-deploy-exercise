@@ -1,0 +1,30 @@
+.container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: #a00404;
+}
+
+#tibia {
+    width:300px;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+table, th, td {
+    border: 2px solid #555555;
+    padding: 5px;
+}
+
+th {
+    background-color: #cccccc;
+}
+
+td:hover {
+    background-color: #dddddd;
+}
