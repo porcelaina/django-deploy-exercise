@@ -27,7 +27,9 @@ SECRET_KEY = '$y@_!2tg6dlkh_%_qosju2b4hbmdgdvd9o(_q7vg=2cqbf*zq)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'sidewind.pythonanywhere.com',
+]
 
 
 # Application definition
