@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends 'basic_app5/base.html' %}
+{% block body_block %}
+
+<div class="jumbotron">
+    <h1>Django Level Five Homepage!</h1>
+    <a href="{% url 'basic_app5:register' %}">Go to registration page</a>
+</div>
+
+{% endblock %}
