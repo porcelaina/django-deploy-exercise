@@ -6,9 +6,6 @@ h1 {
     color: #a00404;
 }
 
-#tibia {
-    width:300px;
-}
 a {
     text-decoration: none;
 }
@@ -27,4 +24,13 @@ th {
 
 td:hover {
     background-color: #dddddd;
+}
+
+#container2 {
+    margin: auto;
+    margin-top:1rem;
+}
+
+div {
+    margin:auto;
 }
