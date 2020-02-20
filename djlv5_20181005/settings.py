@@ -25,11 +25,12 @@ MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 SECRET_KEY = '$y@_!2tg6dlkh_%_qosju2b4hbmdgdvd9o(_q7vg=2cqbf*zq)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    'sidewind.pythonanywhere.com',
+    '159.65.136.71',
     '127.0.0.1',
+    'localhost',
 ]
 
 
@@ -133,9 +134,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    STATIC_DIR,
-]
+STATIC_ROOT = STATIC_DIR
 
 # Media directory (added 2018 10 05)
 MEDIA_ROOT = MEDIA_DIR
